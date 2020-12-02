@@ -101,7 +101,7 @@ L.Control.Search = L.Control.extend({
 		textCancel: 'Iptal',		    //title in cancel button		
 		textPlaceholder: 'Ara...',   //placeholder value			
 		hideMarkerOnCollapse: false,    //remove circle and marker on search control collapsed		
-		position: 'topright',		
+		position: 'topleft',		
 		marker: {						//custom L.Marker or false for hide
 			icon: false,				//custom L.Icon for maker location or false for hide
 			animate: false,				//animate a circle over location found
@@ -928,7 +928,7 @@ L.Control.Search.Marker = L.Marker.extend({
 		icon: new L.Icon.Default(),
 		animate: true,
 		circle: {
-			radius: 2,
+			radius: 10,
 			weight: 3,
 			color: '#e03',
 			stroke: true,
